@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UtilitiesDLL.Entities
+namespace UtilitiesDLL.Entities.Concrete
 {
     public class EmailMetadata
     {
@@ -12,7 +12,7 @@ namespace UtilitiesDLL.Entities
         public string Subject { get; set; }
         public string? Body { get; set; }
         public string? AttachmentPath { get; set; }
-        public EmailMetadata(string toAddress, string subject, string? body ="", string? attachmentPath ="")
+        public EmailMetadata(string toAddress, string subject, string? body = "", string? attachmentPath = "")
         {
             ToAddress = toAddress;
             Subject = subject;

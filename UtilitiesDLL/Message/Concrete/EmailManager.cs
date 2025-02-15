@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using UtilitiesDLL.Entities;
+using UtilitiesDLL.Entities.Concrete;
 using UtilitiesDLL.Message.Abstract;
 
 namespace UtilitiesDLL.Message.Concrete
