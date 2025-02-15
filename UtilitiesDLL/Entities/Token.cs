@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace UtilitiesDLL.Entities
 {
-    internal class Token
+    public class Token
     {
+        public string AccessToken { get; set; }
+        public DateTime ExpirationDate { get; set; }
+        public string RefreshTokem { get; set; }
     }
 }
